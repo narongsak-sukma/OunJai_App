@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![OunJai Hero Banner](https://raw.githubusercontent.com/narongsak-sukma/OunJai_App/main/assets/ounjai_hero_banner.png)
+![OunJai Hero Banner](assets/ounjai_hero_banner.png)
 
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
@@ -61,7 +61,7 @@ Unusual behavior (e.g., opening a banking app after receiving a call from an unk
 
 <div align="center">
 
-![Traditional vs OunJai](https://raw.githubusercontent.com/narongsak-sukma/OunJai_App/main/assets/innovation_comparison.png)
+![Traditional vs OunJai](assets/innovation_comparison.png)
 
 </div>
 
@@ -88,7 +88,7 @@ Traditional systems analyze ONE signal. We analyze THREE simultaneously:
 
 <div align="center">
 
-![Architecture](https://raw.githubusercontent.com/narongsak-sukma/OunJai_App/main/assets/architecture_diagram.png)
+![Architecture](assets/architecture_diagram.png)
 
 </div>
 
