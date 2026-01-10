@@ -262,7 +262,7 @@ Try these Thai phrases in the demo:
 
 **Project:** [github.com/narongsak-sukma/OunJai_App](https://github.com/narongsak-sukma/OunJai_App)  
 
-**Email:** narongsak.sukma@sukma@outlook.com
+**Email:** narongsak.sukma@outlook.com
 
 ---
 
