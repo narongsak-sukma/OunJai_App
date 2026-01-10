@@ -221,7 +221,6 @@ Try these Thai phrases in the demo:
 |-------------|---------------|---------------|
 | <img src="assets/screenshot_home.png" width="250" /> | <img src="assets/screenshot_analysis.png" width="250" /> | <img src="assets/screenshot_alert.png" width="250" /> |
 
-**[📹 Watch Demo Video](assets/demo_video.webp)** | **[🎮 Try Live Demo](https://ounjai-demo.vercel.app)**
 
 </div>
 
@@ -270,7 +269,7 @@ Try these Thai phrases in the demo:
 <div align="center">
 
 **Project:** [github.com/narongsak-sukma/OunJai_App](https://github.com/narongsak-sukma/OunJai_App)  
-**Demo:** [ounjai-demo.vercel.app](https://ounjai-demo.vercel.app)  
+
 **Email:** narongsak.sukma@sukma@outlook.com
 
 ---
