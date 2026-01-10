@@ -11,7 +11,7 @@
 
 **Protect without Spying | Understand without Controlling**
 
-[📖 Read Pitch](PITCH.md) | [💡 Innovation Details](INNOVATION.md) | [🔧 Technical Docs](TECHNICAL.md) | [🌐 Live Demo](https://ounjai-demo.vercel.app)
+[📖 Read Pitch](PITCH.md) | [💡 Innovation Details](INNOVATION.md) | [🔧 Technical Docs](TECHNICAL.md) | [🌐 Live Demo](https://ounjai.vercel.app)
 
 </div>
 
