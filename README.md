@@ -72,11 +72,11 @@ Unusual behavior (e.g., opening a banking app after receiving a call from an unk
 ### 1. **Multi-Signal Ensemble Detection** 🎯
 Traditional systems analyze ONE signal. We analyze THREE simultaneously:
 
-| Signal | Weight | Detection Method |
+| Signal | Detection Method |
 |--------|--------|------------------|
-| 📱 **Thai Text Analysis** | 40% | TensorFlow Lite ML + keyword patterns |
-| 🧠 **Behavioral Anomaly** | 35% | LSTM pattern recognition |
-| 📍 **Location Context** | 25% | ATM and Bank proximity geofencing |
+| 📱 **Thai Text Analysis** | TensorFlow Lite ML + keyword patterns |
+| 🧠 **Behavioral Anomaly** | LSTM pattern recognition |
+| 📍 **Location Context** | ATM and Bank proximity geofencing |
 
 
 ### 2. **Privacy-First Architecture** 🔒
@@ -148,7 +148,7 @@ Try these Thai phrases in the demo:
 3. **Phase 3:** Open API for other banks/telcos
 
 ### Revenue Streams
-- 💰 **B2B SaaS:** ฿50/user/year for enterprise fraud API
+- 💰 **B2B SaaS:** i.e.฿50/user/year for enterprise fraud API
 - 🏦 **Bank Partnerships:** Revenue share on prevented fraud
 - 📱 **Telco Integration:** Wholesale licensing
 
@@ -163,7 +163,7 @@ Try these Thai phrases in the demo:
 | **Federated Learning** | ✅ **First in TH** | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Thai Language Optimized** | ✅ Native | ⚠️ Limited | ⚠️ Limited | ⚠️ Partial | ❌ English | ⚠️ Partial |
 | **ATM Proximity Detection** | ✅ **Patentable** | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **Privacy Guarantee (ε≤0.2)** | ✅ Proven | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Privacy Guarantee** | ✅ Proven | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Family Alerts** | ✅ Auto | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Behavioral Analysis** | ✅ LSTM | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Community Learning** | ✅ Federated | ⚠️ Central DB | ⚠️ Central DB | ⚠️ Central DB | ❌ | ❌ |
@@ -175,7 +175,7 @@ Try these Thai phrases in the demo:
 **vs Whoscall/Truecaller:**
 - ❌ They only check phone numbers (scammers change numbers daily)
 - ❌ Centralized database = privacy risk
-- ✅ OunJai analyzes context (ATM + call + message) = **98% coercion detection**
+- ✅ OunJai analyzes context (ATM, Bank location + call + message)
 
 **vs True Money Wallet:**
 - ❌ Transaction-based only (after money sent)
@@ -251,10 +251,10 @@ Try these Thai phrases in the demo:
 
 ### Business Feasibility ✅
 - **Clear Market:** 70M Thai smartphone users, 89% encounter scams
-- **Willing Payers:** Banks lose ฿60B/year, will pay to prevent
-- **Partnership Traction:** KBTG interest, Samsung hackathon validation
+- **Willing Payers:** The bank's reputation is lost, will pay to prevent
+- **Business selling point:** Financial institutions and mobile phone brands
+- **Regulatory and government sectors in Thailand should have a system for national security.:** ฺNCSA, BOT, SEC, OIC, Etc.
 - **Enable Open API access for all financial institutions and Critical Information Infrastructure (CII) to participate:**
-
 
 ## 📄 Documentation
 
