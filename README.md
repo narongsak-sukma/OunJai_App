@@ -21,16 +21,21 @@
 
 <div align="center">
 
-| Statistic | Impact |
-|-----------|--------|
-| **168 Million** | Scam calls/SMS detected in 2024 (+112% YoY) |
-| **฿60 Billion** | Annual losses (~$1.7B USD) |
-| **89%** | Of Thais encounter scams monthly |
-| **13 Million** | Elderly people at risk (75.3% victimized) |
+| Statistic | Impact | Source |
+|-----------|--------|--------|
+| **168 Million** | Scam calls/SMS detected in 2024 (+112% YoY) | Whoscall Annual Report 2024[^1] |
+| **38 Million** | Scam phone calls in 2024 (+83% from 20.8M in 2023) | Whoscall Annual Report 2024[^1] |
+| **130 Million** | Scam SMS messages in 2024 (+123% from 58.3M in 2023) | Whoscall Annual Report 2024[^1] |
+| **฿80,000 Million** | Total fraud losses since 2022 (cumulative) | Thai Cyber Police (กองบัญชาการตำรวจไซเบอร์)[^1] |
+| **460,000 Daily** | Scam attempts blocked per day by Whoscall users | Whoscall Thailand 2024[^1] |
+| **41%** | Thai citizens' personal data leaked on dark/deep web | Whoscall ID Security Feature 2024[^1] |
+
+> [!NOTE]
+> **Reference:** [^1] Gogolook Thailand (Whoscall). "นับแต่ปี 65 คนไทยโดนหลอกไก 80,000 ล้าน ปี 67 ทำลายสถิติ รับสายและ SMS มิจฉาชีพไป 168 ล้านครั้ง." *Marketeer Online*, 24 Feb 2025. [https://marketeeronline.co/archives/403729](https://marketeeronline.co/archives/403729)
 
 </div>
 
-Every day, **460,000 scam attempts** target Thai citizens. Traditional solutions **fail** because:
+In January 2025 alone, **30,000+ fraud cases** were reported worth ฿400 million, with only ฿73 million recovered[^1]. Traditional solutions **fail** because:
 - ❌ Reactive blacklists (scammers change numbers daily)
 - ❌ Centralized databases (privacy nightmares)
 - ❌ Single-signal detection (easily bypassed)
