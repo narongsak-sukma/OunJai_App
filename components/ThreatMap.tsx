@@ -26,9 +26,10 @@ const ThreatMap: React.FC<ThreatMapProps> = ({ userLocation, riskZones, radius, 
         attributionControl: false
       }).setView([initialLat, initialLng], 15);
 
-      // Dark Mode Tiles (CartoDB Dark Matter)
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 20
+      // Light Mode Tiles (OpenStreetMap Standard) - White background for clear visibility
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        attribution: '© OpenStreetMap'
       }).addTo(map);
 
       markersRef.current = L.layerGroup().addTo(map);
@@ -46,10 +47,10 @@ const ThreatMap: React.FC<ThreatMapProps> = ({ userLocation, riskZones, radius, 
   // Update Markers when data changes
   useEffect(() => {
     if (!mapInstanceRef.current || !markersRef.current) return;
-    
+
     const map = mapInstanceRef.current;
     const markers = markersRef.current;
-    
+
     markers.clearLayers();
 
     if (userLocation) {
@@ -89,7 +90,7 @@ const ThreatMap: React.FC<ThreatMapProps> = ({ userLocation, riskZones, radius, 
         iconSize: [24, 24],
         iconAnchor: [12, 12]
       });
-      
+
       const popupContent = `
         <div class="p-1">
           <div class="text-slate-900 font-bold">${zone.name}</div>
@@ -97,10 +98,10 @@ const ThreatMap: React.FC<ThreatMapProps> = ({ userLocation, riskZones, radius, 
           <div class="text-red-500 text-[10px] font-semibold mt-1 uppercase tracking-wider">High Risk Area</div>
         </div>
       `;
-      
+
       const marker = L.marker([zone.lat, zone.lng], { icon: zoneIcon })
         .bindPopup(popupContent);
-      
+
       marker.addTo(markers);
     });
 
@@ -109,27 +110,27 @@ const ThreatMap: React.FC<ThreatMapProps> = ({ userLocation, riskZones, radius, 
   return (
     <div className="w-full relative group">
       <div className="absolute top-4 left-4 z-[40]">
-          <h3 className="text-white font-medium text-lg drop-shadow-md">แผนที่ความอุ่นใจ</h3>
-          <p className="text-xs text-blue-200 drop-shadow-md">Live Real-time Safety Map</p>
+        <h3 className="text-white font-medium text-lg drop-shadow-md">แผนที่ความอุ่นใจ</h3>
+        <p className="text-xs text-blue-200 drop-shadow-md">Live Real-time Safety Map</p>
       </div>
 
-      <button 
+      <button
         onClick={onOpenSettings}
         className="absolute top-4 right-4 z-[40] bg-[#0f2445]/90 border border-blue-500/30 p-2 rounded-xl text-blue-200 hover:text-white shadow-lg backdrop-blur-sm transition-all active:scale-95"
       >
         <Settings className="w-5 h-5" />
       </button>
 
-      <div 
-        ref={mapContainerRef} 
-        className="w-full h-64 rounded-[2rem] border border-blue-900/30 overflow-hidden shadow-inner bg-[#051024]"
+      <div
+        ref={mapContainerRef}
+        className="w-full h-64 rounded-[2rem] border border-blue-900/30 overflow-hidden shadow-inner bg-white"
       />
-      
+
       {/* Footer status */}
       <div className="flex gap-4 text-xs mt-3 px-2">
-         <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-[#ff3b30]"></span> จุดเสี่ยง (ATM/Bank)</div>
-         <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-[#0057B8]"></span> ตำแหน่งของคุณ</div>
-         <div className="ml-auto text-blue-200/50">{radius}m Radius</div>
+        <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-[#ff3b30]"></span> จุดเสี่ยง (ATM/Bank)</div>
+        <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-[#0057B8]"></span> ตำแหน่งของคุณ</div>
+        <div className="ml-auto text-blue-200/50">{radius}m Radius</div>
       </div>
     </div>
   );

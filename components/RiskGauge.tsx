@@ -31,8 +31,8 @@ const RiskGauge: React.FC<RiskGaugeProps> = ({ score, level }) => {
         >
           <defs>
             <linearGradient id="gradientSafe" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="#34d399" />
-              <stop offset="100%" stopColor="#059669" />
+              <stop offset="0%" stopColor="#00C853" />
+              <stop offset="100%" stopColor="#0A944B" />
             </linearGradient>
             <linearGradient id="gradientMedium" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stopColor="#fde047" />
@@ -71,24 +71,24 @@ const RiskGauge: React.FC<RiskGaugeProps> = ({ score, level }) => {
             cy={radius}
           />
         </svg>
-        
+
         {/* Center Text */}
         <div className="absolute flex flex-col items-center">
-            <span className={`text-4xl font-bold ${RISK_COLORS[level]}`}>
-                {score}%
-            </span>
-            <span className="text-blue-200/50 text-xs font-light tracking-widest uppercase">
-                ระดับความเสี่ยง
-            </span>
+          <span className={`text-4xl font-bold ${RISK_COLORS[level]}`}>
+            {score}%
+          </span>
+          <span className="text-blue-200/50 text-xs font-light tracking-widest uppercase">
+            ระดับความเสี่ยง
+          </span>
         </div>
       </div>
-      
+
       <div className="mt-4 text-center">
         <h2 className={`text-2xl font-bold ${RISK_COLORS[level]}`}>
-            {RISK_LABELS_TH[level]}
+          {RISK_LABELS_TH[level]}
         </h2>
         <p className="text-blue-200/60 text-sm">
-            {RISK_LABELS_EN[level]}
+          {RISK_LABELS_EN[level]}
         </p>
       </div>
     </div>
