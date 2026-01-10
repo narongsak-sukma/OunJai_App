@@ -26,3 +26,11 @@ dist-ssr
 document/
 *.docx
 .vercel
+
+# Environment Variables
+.env
+.env.*
+
+# AI Configuration
+.claude
+.gemini
