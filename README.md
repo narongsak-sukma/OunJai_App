@@ -219,9 +219,9 @@ Try these Thai phrases in the demo:
 
 | Home Screen | Scam Analysis | Warning Alert |
 |-------------|---------------|---------------|
-| ![Home](assets/screenshot_home.png) | ![Analysis](assets/screenshot_analysis.png) | ![Alert](assets/screenshot_alert.png) |
+| <img src="assets/screenshot_home.png" width="250" /> | <img src="assets/screenshot_analysis.png" width="250" /> | <img src="assets/screenshot_alert.png" width="250" /> |
 
-**[📹 Watch Demo Video](https://youtu.be/demo_link)** | **[🎮 Try Live Demo](https://ounjai-demo.vercel.app)**
+**[📹 Watch Demo Video](assets/demo_video.webp)** | **[🎮 Try Live Demo](https://ounjai-demo.vercel.app)**
 
 </div>
 
