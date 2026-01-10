@@ -1,0 +1,7 @@
+{
+  "name": "อุ่นใจ (OunJai)",
+  "description": "ผู้ช่วยความปลอดภัยส่วนตัวของคุณ - ตรวจสอบความเสี่ยงและดูแลคุณด้วยความห่วงใย",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
