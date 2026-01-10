@@ -254,14 +254,6 @@ Try these Thai phrases in the demo:
 - **Business selling point:** Financial institutions and mobile phone brands
 - **Regulatory and government sectors in Thailand should have a system for national security.:** ฺNCSA, BOT, SEC, OIC, Etc.
 - **Enable Open API access for all financial institutions and Critical Information Infrastructure (CII) to participate:**
-
-## 📄 Documentation
-
-- 📖 **[PITCH.md](PITCH.md)** - Full hackathon pitch deck
-- 💡 **[INNOVATION.md](INNOVATION.md)** - Deep dive on technical innovation
-- 🔧 **[TECHNICAL.md](TECHNICAL.md)** - Complete technical specifications
-- 🎨 **[APP_OVERVIEW.md](APP_OVERVIEW.md)** - Product overview & design
-
 ---
 
 ## 📞 Contact & Links
