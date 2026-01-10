@@ -9,10 +9,7 @@
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-### *"ป้องกันภัย ไม่สอดส่อง | เข้าใจ ไม่ควบคุม"*
 **Protect without Spying | Understand without Controlling**
-
-**🏆 Samsung × KBTG Digital Fraud Cybersecurity Hackathon 2026**
 
 [📖 Read Pitch](PITCH.md) | [💡 Innovation Details](INNOVATION.md) | [🔧 Technical Docs](TECHNICAL.md) | [🌐 Live Demo](https://ounjai-demo.vercel.app)
 
@@ -52,7 +49,7 @@ OunJai transforms **every smartphone into a privacy-preserving fraud detection s
 > **Critical Insight from Police:** Most fraud involves scammers forcing victims to ATMs while on the phone.
 
 ```
-Unknown Caller + ATM Location + Transfer Request = 🚨 SCAM ALERT
+Unusual behavior (e.g., opening a banking app after receiving a call from an unknown number) + ATM and Bank Location + Transfer Request = 🚨 SCAM ALERT
 ```
 
 **OunJai is the first solution to detect this pattern using multi-signal correlation.**
@@ -65,24 +62,24 @@ Unknown Caller + ATM Location + Transfer Request = 🚨 SCAM ALERT
 
 ---
 
-## 🌟 Why OunJai Wins
+## 🌟 Why OunJai
 
 ### 1. **Multi-Signal Ensemble Detection** 🎯
 Traditional systems analyze ONE signal. We analyze THREE simultaneously:
 
 | Signal | Weight | Detection Method |
 |--------|--------|------------------|
-| 📱 **Thai Text Analysis** | 40% | TFLite ML model + keyword patterns |
+| 📱 **Thai Text Analysis** | 40% | TensorFlow Lite ML + keyword patterns |
 | 🧠 **Behavioral Anomaly** | 35% | LSTM pattern recognition |
-| 📍 **Location Context** | 25% | ATM proximity geofencing |
+| 📍 **Location Context** | 25% | ATM and Bank proximity geofencing |
 
-**Result:** 94%+ accuracy with <1% false positives
 
 ### 2. **Privacy-First Architecture** 🔒
 - ✅ All analysis happens **on-device** (TensorFlow Lite)
 - ✅ **Zero raw data** leaves your phone
 - ✅ Differential privacy (ε=0.2) for federated learning
-- ✅ Samsung Knox device attestation
+- ✅ Hardware secure base i.e.Samsung Knox device attestation
+- ❌ No personal data is sent out of the device.
 
 <div align="center">
 
@@ -94,7 +91,7 @@ Traditional systems analyze ONE signal. We analyze THREE simultaneously:
 **Federated Learning:** Your phone learns from community patterns without sharing private data.
 - 📈 Model improves daily from millions of devices
 - 🔐 Byzantine fault tolerance prevents poisoning
-- 🌏 Thailand's first federated fraud detection network
+- 🌏 Thailand's first federated fraud detection network, NSCA, Royal Thai Police, Etc.
 
 ### 4. **Family Protection Mode** 👨‍👩‍👧‍👦
 **One-tap emergency alerts** to trusted contacts when critical threats detected.
@@ -104,7 +101,7 @@ Traditional systems analyze ONE signal. We analyze THREE simultaneously:
 
 ---
 
-## 🏗️ Technical Excellence
+## 🏗️ Technical
 
 ### Technology Stack
 ```
@@ -116,19 +113,6 @@ FL Server: Flower (Federated Learning)
 Cloud:     Google Cloud Platform
 Security:  Samsung Knox + Differential Privacy
 ```
-
-### Performance Benchmarks
-
-| Metric | Target | Status |
-|--------|--------|--------|
-| Detection Latency | <100ms | ✅ 85ms avg |
-| Battery Impact | <2%/day | ✅ 1.4%/day |
-| Model Size | <8MB | ✅ 7.5MB total |
-| Accuracy | >94% | ✅ 94.7% |
-| False Positive Rate | <1% | ✅ 0.8% |
-| Privacy Budget (ε) | ≤0.2 | ✅ 0.2 |
-
----
 
 ## 🚀 Quick Start
 
@@ -163,9 +147,6 @@ Try these Thai phrases in the demo:
 - 🏦 **Bank Partnerships:** Revenue share on prevented fraud
 - 📱 **Telco Integration:** Wholesale licensing
 
-**Projected Year 1:** 1M users → ฿50M ARR  
-**Projected Year 3:** 10M users → ฿500M ARR
-
 ---
 
 ## 🏆 Competitive Advantages
@@ -181,8 +162,6 @@ Try these Thai phrases in the demo:
 | **Family Alerts** | ✅ Auto | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Behavioral Analysis** | ✅ LSTM | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Community Learning** | ✅ Federated | ⚠️ Central DB | ⚠️ Central DB | ⚠️ Central DB | ❌ | ❌ |
-| **Accuracy** | ✅ 94.7% | ~75% | ~78% | ~72% | ~80% | ~70% |
-| **False Positives** | ✅ 0.8% | ~4% | ~5% | ~3% | ~2% | ~6% |
 | **Offline Capable** | ✅ Yes | ❌ Needs internet | ❌ Needs internet | ❌ Needs internet | ✅ Partial | ❌ Needs internet |
 | **Free for Consumers** | ✅ Yes | ⚠️ Freemium | ⚠️ Freemium | ✅ Yes | ✅ Yes | ✅ Yes |
 
@@ -208,7 +187,7 @@ Try these Thai phrases in the demo:
 - ❌ Bank-specific only
 - ✅ OunJai universal protection across all scenarios
 
-**Unique Moat:** Patentable multi-signal correlation + first federated fraud detection in Thailand + ATM coercion detection
+**Unique Moat:** Patentable multi-signal correlation + first federated fraud detection in Thailand + ATM coercion detection + Bank Location
 
 ---
 
@@ -260,14 +239,6 @@ Try these Thai phrases in the demo:
 
 ## 🔬 Innovation Summary
 
-### What Makes Us Unique
-
-1. **Multi-Signal Ensemble** - First fraud detector correlating text + behavior + location
-2. **Federated Learning** - First privacy-preserving community intelligence in Thailand
-3. **Coercion Detection** - First solution targeting ATM-forcing scam pattern (police insight)
-4. **Differential Privacy** - Mathematically proven privacy (ε=0.2) vs competitors' "we promise" approach
-5. **Thai-First Design** - Optimized for Thai language, culture, and scam patterns
-
 ### Technical Feasibility ✅
 - **Proven Technologies:** TFLite (Google), Flower FL (standard), Knox (Samsung)
 - **Working Prototype:** Web demo deployed, Android alpha ready
@@ -277,19 +248,8 @@ Try these Thai phrases in the demo:
 - **Clear Market:** 70M Thai smartphone users, 89% encounter scams
 - **Willing Payers:** Banks lose ฿60B/year, will pay to prevent
 - **Partnership Traction:** KBTG interest, Samsung hackathon validation
+- **Enable Open API access for all financial institutions and Critical Information Infrastructure (CII) to participate:**
 
----
-
-## 👥 Team
-
-**Narongsak Sukma** - Full-Stack Developer | ML Engineer | Cybersecurity Specialist
-- 🎓 Computer Science & AI/ML expertise
-- 💼 Previous: Enterprise security systems
-- 🏆 Hackathon Winner: [Previous Achievements]
-
-**[Add Team Members]**
-
----
 
 ## 📄 Documentation
 
@@ -306,8 +266,7 @@ Try these Thai phrases in the demo:
 
 **Project:** [github.com/narongsak-sukma/OunJai_App](https://github.com/narongsak-sukma/OunJai_App)  
 **Demo:** [ounjai-demo.vercel.app](https://ounjai-demo.vercel.app)  
-**Email:** narongsak.sukma@example.com  
-**Hackathon:** Samsung × KBTG 2026
+**Email:** narongsak.sukma@sukma@outlook.com
 
 ---
 
@@ -331,6 +290,5 @@ MIT License - Open source for community benefit. See [LICENSE](LICENSE) for deta
 
 **🛡️ อุ่นใจ - Peace of Mind for Every Thai Citizen 🛡️**
 
-*Samsung × KBTG Digital Fraud Cybersecurity Hackathon 2026*
 
 </div>
