@@ -72,11 +72,11 @@ Unusual behavior (e.g., opening a banking app after receiving a call from an unk
 ### 1. **Multi-Signal Ensemble Detection** 🎯
 Traditional systems analyze ONE signal. We analyze THREE simultaneously:
 
-| Signal | Weight | Detection Method |
-|--------|--------|------------------|
-| 📱 **Thai Text Analysis** | 40% | TensorFlow Lite ML + keyword patterns |
-| 🧠 **Behavioral Anomaly** | 35% | LSTM pattern recognition |
-| 📍 **Location Context** | 25% | ATM and Bank proximity geofencing |
+| Signal | Detection Method |
+|--------|------------------|
+| 📱 **Thai Text Analysis** | TensorFlow Lite ML + keyword patterns |
+| 🧠 **Behavioral Anomaly** | LSTM pattern recognition |
+| 📍 **Location Context** | ATM and Bank proximity geofencing |
 
 
 ### 2. **Privacy-First Architecture** 🔒
