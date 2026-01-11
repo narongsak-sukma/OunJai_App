@@ -10,7 +10,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 **Protect without Spying | Understand without Controlling**
-**AI Sovereignty THAILAND**
 
 [📖 Read Pitch](PITCH.md) | [💡 Innovation Details](INNOVATION.md) | [🔧 Technical Docs](TECHNICAL.md) | [🌐 Live Demo](https://ounjai-demo.vercel.app)
 
@@ -229,7 +228,7 @@ Try these Thai phrases in the demo:
 ---
 
 ## 🌍 Social Impact
-
+### AI Sovereignty THAILAND
 ### Protecting the Vulnerable
 - 🧓 **Elderly Protection:** Simplified UI + family alerts
 - 📚 **Financial Literacy:** In-app scam education
@@ -257,13 +256,6 @@ Try these Thai phrases in the demo:
 - **Regulatory and government sectors in Thailand should have a system for national security.:** ฺNCSA, BOT, SEC, OIC, Etc.
 - **Enable Open API access for all financial institutions and Critical Information Infrastructure (CII) to participate:**
 
-## 📄 Documentation
-
-- 📖 **[PITCH.md](PITCH.md)** - Full hackathon pitch deck
-- 💡 **[INNOVATION.md](INNOVATION.md)** - Deep dive on technical innovation
-- 🔧 **[TECHNICAL.md](TECHNICAL.md)** - Complete technical specifications
-- 🎨 **[APP_OVERVIEW.md](APP_OVERVIEW.md)** - Product overview & design
-
 ---
 
 ## 📞 Contact & Links
@@ -280,7 +272,7 @@ Try these Thai phrases in the demo:
 
 **Built with ❤️ in Thailand | For Thailand**
 
-**#CyberSecurity #FraudDetection #AIForGood #Thailand #Hackathon**
+**#AI Sovereignty THAILAND #CyberSecurity #FraudDetection #AIForGood #Thailand #Hackathon **
 
 </div>
 
