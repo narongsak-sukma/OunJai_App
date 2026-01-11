@@ -10,6 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 **Protect without Spying | Understand without Controlling**
+**AI Sovereignty THAILAND**
 
 [📖 Read Pitch](PITCH.md) | [💡 Innovation Details](INNOVATION.md) | [🔧 Technical Docs](TECHNICAL.md) | [🌐 Live Demo](https://ounjai-demo.vercel.app)
 
@@ -170,7 +171,7 @@ Try these Thai phrases in the demo:
 | **Offline Capable** | ✅ Yes | ❌ Needs internet | ❌ Needs internet | ❌ Needs internet | ✅ Partial | ❌ Needs internet |
 | **Free for Consumers** | ✅ Yes | ⚠️ Freemium | ⚠️ Freemium | ✅ Yes | ✅ Yes | ✅ Yes |
 
-### Why OunJai Wins:
+### Why OunJai:
 
 **vs Whoscall/Truecaller:**
 - ❌ They only check phone numbers (scammers change numbers daily)
